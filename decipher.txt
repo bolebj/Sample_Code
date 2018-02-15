@@ -1,0 +1,5 @@
+Deciphered a-key: 1		Deciphered b-key: 52
+DECRYPTED MESSAGE:
+this is a test of text
+
+abcd  
