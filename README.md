@@ -1,7 +1,7 @@
 # Sample_Code
 
 affine.java is a simple command line utility which uses an affine cypher algorithm to
-encrypting plain text files, decrypting plain text files, and deciphering encrypted plain
+encrypt plain text files, decrypt plain text files, and decipher encrypted plain
 text files.
 
 To encrypt a text file, write "encrypt, file_to_encrypt, file_to_output_to, a-key, b-key".
@@ -18,7 +18,7 @@ An example with the current files on this repository is as follows:
 
 To decipher a text file, write "decipher, encrypted_text_file, file_to_output_to, dictionary_file".
 In this context, a dictionary file is a file which contains possible words and/or digits the decrypted
-version of the file could have.
+version of the file could have, all seperated by a newline character.
 An example with the current files on this repository is as follows:
 
 "decipher, toDecrypt.txt, decipher.txt, dictionary.txt"
